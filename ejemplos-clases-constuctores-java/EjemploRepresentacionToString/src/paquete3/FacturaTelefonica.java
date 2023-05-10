@@ -64,7 +64,11 @@ public class FacturaTelefonica {
     
     @Override
     public String toString(){
-        String cadena = obtenerNumeroTelefono();
+        
+        // Cualquiera de las 2 maneras es correcta para presentar numeroTelefono
+        // String cadena = obtenerNumeroTelefono();
+        String cadena = numeroTelefono;
+        
         return cadena;
     }
     

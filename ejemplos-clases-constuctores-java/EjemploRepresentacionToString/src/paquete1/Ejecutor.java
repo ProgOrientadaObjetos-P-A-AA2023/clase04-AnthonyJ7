@@ -14,5 +14,7 @@ public class Ejecutor {
         fac.calcularValorFactura(); 
         
         System.out.printf("%s\n", fac);
+        
+        // Estas 2 lineas de codigo , fac o fac.toString; son lo mismo
     }
 }

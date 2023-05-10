@@ -62,6 +62,7 @@ public class FacturaTelefonica {
         return valorFactura;
     }
     
+    // Override es sobreescribir
     @Override
     public String toString(){
         String cadena = "Soy una factura";
